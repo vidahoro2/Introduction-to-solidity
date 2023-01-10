@@ -15,6 +15,7 @@ contract  modificadores{
     }
 
     modifier esOwner(){
+        //Para restringir el acceso a la dirección que no haya desplegado el contrato
         if(msg.sender != owner) revert();
         _;
     }
