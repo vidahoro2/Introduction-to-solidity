@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "palabra",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts\\almacenamiento.sol": "Almacenamieto"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts\\almacenamiento.sol": {
+			"keccak256": "0x5c6f99766b9c476abbc939cec87da4e0fe8c8cf71e257e571b0e24d95654dc44",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://247c1a8931e34b906aef31b877a691dd231ba61374b1433a5d61448a229840d0",
+				"dweb:/ipfs/QmRL8GYs1EF5jaNKuH5N6wZHtNLt4mqciApNAZyFMUrmsU"
+			]
+		}
+	},
+	"version": 1
+}
